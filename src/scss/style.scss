@@ -1,0 +1,22 @@
+$indexColor : #2b3643;
+
+@mixin position_center{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+@mixin flex_center{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+@mixin clearfix{
+  &:before{
+    content:"."; 
+    display:block; 
+    height:0; 
+    visibility:hidden; 
+    clear:both;
+  }
+}

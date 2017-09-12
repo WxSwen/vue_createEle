@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true
+    },
+    // "extends": "eslint:recommended",
+    "plugins": ["html"],
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-console": ["off"],
+        "no-var": "error",
+        "eqeqeq":"error",
+        "no-restricted-imports":"error",
+        "prefer-arrow-callback":"error"
+    }
+}
